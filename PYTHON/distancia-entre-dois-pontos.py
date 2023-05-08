@@ -5,18 +5,18 @@ x1 é a abscissa de A, y1 é a ordenada de A.
 x2 é a abscissa de B, y2 a ordenada de B
 """
 
-# Importando biblioteca matemática para a função de raiz quadrada
+# Importando biblioteca matemática para a função de raiz quadrada.
 from math import sqrt
 
-# Inserido coordenadas dos pontos
+# Inserido coordenadas dos pontos.
 xA = float(input('\nDigite a abscissa do ponto A: '))
 xB = float(input('Digite a abscissa do ponto B: '))
 
 yA = float(input('\nDigite a ordenada do ponto A: '))
 yB = float(input('Digite a abscissa do ponto B: '))
 
-# Calculando a distância
+# Calculando a distância.
 distAB = sqrt((xA-xB)**2) + ((yA-yB)**2)
 
-# Mostrando resultado
-print(f'\nA distância entre esses dois pontos é de: {distAB:.0f} unidades de medida.\n')
+# Mostrando resultado.
+print(f'\nA distância entre esses dois pontos é de \033[0;32m{distAB:.0f}\033[m unidades de medida.\n')
