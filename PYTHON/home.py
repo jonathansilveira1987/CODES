@@ -1,3 +1,3 @@
-a = 'Developer '
+a = 'Developer'
 b = 'Python'
-print(a[1:] + b[1:])
+print(f'\n{a[1:]}' + f'{b[1:]}\n')

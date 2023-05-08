@@ -19,13 +19,10 @@ comandos_python  =  """\033[32m
                         Embora nunca seja frequentemente melhor do que *agora*. 
                         Se a implementação for difícil de explicar, é uma má ideia. 
                         Se a implementação for fácil de explicar, pode ser uma boa idéia. 
-                        Namespaces são uma ótima ideia -- vamos fazer mais desses!
-                        \033[m
-                        
+                        Namespaces são uma ótima ideia -- vamos fazer mais desses!\033[m
                         \033[33m
                         O Zen de Python, por Jonathan Silveira
 
-                        Feito é melhor que perfeito!
-                        \033[m
+                        Feito é melhor que perfeito!\033[m
                         """
 print(comandos_python)  # digite 'import this' no interpretador do python e veja o que acontece!

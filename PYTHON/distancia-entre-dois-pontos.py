@@ -9,14 +9,14 @@ x2 é a abscissa de B, y2 a ordenada de B
 from math import sqrt
 
 # Inserido coordenadas dos pontos
-xA = float(input('\nDigite a abscissa do ponto A:'))
-xB = float(input('Digite a abscissa do ponto B:'))
+xA = float(input('\nDigite a abscissa do ponto A: '))
+xB = float(input('Digite a abscissa do ponto B: '))
 
-yA = float(input('\nDigite a ordenada do ponto A:'))
-yB = float(input('Digite a abscissa do ponto B:'))
+yA = float(input('\nDigite a ordenada do ponto A: '))
+yB = float(input('Digite a abscissa do ponto B: '))
 
 # Calculando a distância
 distAB = sqrt((xA-xB)**2) + ((yA-yB)**2)
 
 # Mostrando resultado
-print('\nA distância entre esses dois pontos é de:', distAB, 'unidades de medida.\n')
+print(f'\nA distância entre esses dois pontos é de: {distAB:.0f} unidades de medida.\n')
