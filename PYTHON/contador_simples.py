@@ -17,3 +17,12 @@ for e in d:
     # sleep(0.5)
     print(e)
 print('\033[m')
+
+# Usando Laço while.
+a = int(input('\nAté que número deseja contar: '))
+i = 1
+print('\033[35m')
+while i < a + 1:
+    print(i)
+    i = i + 1
+print('\033[m')
