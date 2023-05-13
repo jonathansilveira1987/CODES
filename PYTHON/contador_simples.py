@@ -33,5 +33,5 @@ while True:
     x > -1
     x = x + 1
     sleep(0.5)
-    print(x)
+    print(f'\033[31m{x}\033[m')
     # break
