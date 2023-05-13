@@ -26,3 +26,12 @@ while i < a + 1:
     print(i)
     i = i + 1
 print('\033[m')
+
+# Contador Automático
+x = -1
+while True:
+    x > -1
+    x = x + 1
+    sleep(0.5)
+    print(x)
+    # break
