@@ -3,4 +3,4 @@
 
 import calendar
 
-print(calendar.calendar(int(input('Ano: \033[31m'))))
+print(calendar.calendar(int(input('\nAno: '))))

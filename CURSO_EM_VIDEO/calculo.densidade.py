@@ -3,7 +3,7 @@
 # Calcula o valor da densidade em um ponto z
 # NAO ALTERE O CODIGO ABAIXO
 # entrada de dados
-z = input("z = ")
+z = input("\nZ = ")
 # ESCREVA O SEU CODIGO ABAIXO
 
 import math

@@ -14,8 +14,8 @@ maxlogin = 3
 loginattempts = 0
 while loginattempts < maxlogin:
 	loginattempts = loginattempts + 1
-	userid = raw_input(input("Please enter your UserID: "))
-	password = raw_input("Please enter your Password: ")
+	userid = input("\nPlease enter your UserID: ")
+	password = input("Please enter your Password: ")
 	# If the UserID supplied by the user appears in the pwds dictionary,
 	# test to see if the corresponding password is correct.
 	if pwds.has_key(userid):
@@ -26,5 +26,5 @@ while loginattempts < maxlogin:
 			print("Your pathetic login attempt has failed!")
 	else:
 		print("You appear to be ontologically challenged.")
-raw_input("Press [Enter] to end this session.\nIf you do not have a UserID,\ntry 'guest' with a Password of 'anonymous' next time. >")
+print("Press [Enter] to end this session.\nIf you do not have a UserID,\ntry 'guest' with a Password of 'anonymous' next time. >")
 
