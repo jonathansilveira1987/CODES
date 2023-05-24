@@ -6,4 +6,3 @@ palavras = texto.split()
 palavras = texto.upper()
 print(f"palavras = {palavras}")
 print(f"Tamanho de palavras = {len(palavras)}")
-

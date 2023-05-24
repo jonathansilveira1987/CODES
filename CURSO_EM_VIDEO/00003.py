@@ -30,8 +30,8 @@ dados_2 = {
     'enviado': [False, False, False, True, True, True, False, True, True, False]
 }
 
-emails = extrair_lista_email(dict_1=dados_1, dict_2=dados_2)
-print(f"E-mails a serem enviados = \n {emails}")
+# emails = extrair_lista_email(dict_1=dados_1, dict_2=dados_2)
+# print(f"E-mails a serem enviados = \n {emails}")
 
 print('\n\033[31m◉     ◉     ◉     ◉     ◉     ◉     ◉     ◉     ◉     ◉     ◉     ◉\033[m\n')
 
