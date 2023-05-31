@@ -1,3 +1,4 @@
+# [Geometria-Analitica]
 """Programa em Python que calcula a distância entre dois pontos, dadas as suas coordenadas. 
 Considerando os pontos A(x1;y1) e B(x2;y2).
 
