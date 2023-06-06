@@ -11,26 +11,31 @@ init_printing(use_latex='png', scale=1.05, order='grlex',
 from sympy import diff, Symbol
 
 # 3x^2
-x = Symbol('x')
-f = x**3
-diff(f, x)
+x = int(input('\nInforme o valor de X: '))
+a = f = x ** 3
+# a = diff(f, x)
 
 # 6x
-diff(f, x, 2)
+b = diff(f, x, 2)
 
 # 6
-diff(f, x, 3) 
+c = diff(f, x, 3) 
 
 from sympy import sin, cos, exp
 
 # regra do produto
-diff(x**2 * sin(x), x)
+d = diff(x**2 * sin(x), x)
 
 # regra da cadeia
-diff(sin(x**2))
+e = diff(sin(x**2))
 
 # regra do quociente
-diff(x**2 / sin(x), x)
+f = diff(x**2 / sin(x), x)
 
-diff(x**2 / sin(x), x).factor()
+g = diff(x**2 / sin(x), x).factor()
 
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
