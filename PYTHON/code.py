@@ -1,3 +1,20 @@
+# Por exemplo, se você quer calcular 35% de 500, 
+# multiplique 35 por 500. Fazendo isso você obtém o valor de 
+# 35 x 500 = 17500; Divida o resultado obtido por 100
+a = float(input('\nVetor A: '))
+b = float(input('Vetor B: '))
+
+if a < b:
+    c = a / b
+    d = c * 100
+    print(f'\n\033[32m{a:.2f} equivale a {round(d)}% de {b:.2f}\033[m')
+    print(f'\n\033[33m{a:.2f} equivale a {d:.2f}% de {b:.2f}\033[m')
+else:
+    c = b / a
+    d = c * 100
+    print(f'\n\033[32m{b:.2f} equivale a {round(d)}% de {a:.2f}\033[m')
+    print(f'\n\033[33m{b:.2f} equivale a {d:.2f}% de {a:.2f}\033[m')
+
 x = int(input('\nDigite um número inteiro: '))
 x -= - 1
 print(f'\n\033[31m{x}\033[m')
@@ -10,7 +27,8 @@ print(f'\n\033[31m{x}\033[m')
 import uuid
 
 print('''
-UUID = Um namespace de URN de identificador universalmente exclusivo.
+UUID = Um namespace d
+e URN de identificador universalmente exclusivo.
 Status deste memorando.
 Este documento especifica um Protocolo de Rastreamento de Padrões da Internet.
 ''')
