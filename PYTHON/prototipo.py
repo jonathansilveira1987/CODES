@@ -10,4 +10,3 @@ for i in range(linhas + 1):
     # nova linha após cada linha
     print('')
 print()
-
