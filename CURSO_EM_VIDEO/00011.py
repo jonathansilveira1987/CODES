@@ -1,6 +1,6 @@
 from time import sleep
 
-print ("Olá, vou descobrir o resultado final de acordo com o número que você escolher ;)")
+print ("\nOlá, vou descobrir o resultado final de acordo com o número que você escolher ;)")
 sleep(5)
 print('Vamos começar!!\n')
 sleep(5)
