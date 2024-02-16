@@ -1,7 +1,9 @@
+from time import sleep
 i = 0
 j = int(input('\nInforme um número inteiro: '))
-print()
+print('\033[0;32m')
 while i <= j:
+    sleep(0.3)
     print(f'Número {i}')
     i = i + 1
-print()
+print('\033[m')
