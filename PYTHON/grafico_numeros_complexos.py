@@ -3,29 +3,21 @@ from sympy import Symbol, solve, init_printing
 from sympy.plotting import plot
 
 z = 4 + 3j
+# z = 2 + 3j
+# z = -1 + 3j
+# z = 5 + 3j
 print(type(z))
 print(z.real)
 print(z.imag)
 print(z.conjugate())
 print(abs(z))
 
-
-
-
-
-
-
 # configuração para outputs melhores no artigo, pode ser ignorado
 init_printing(use_latex='png', scale=1.25, order='grlex',
               forecolor='Black', backcolor='White', fontsize=12)
 x = Symbol('x')
-example = (x + 1)**2 + 9
+example = (x + 1) ** 2 + 9
 plot(example, axis_center=(0, 0))
-
-
-
-
-
 
 # Representações gráficas de números complexos.
 import matplotlib.pyplot as plt
@@ -64,14 +56,6 @@ fig.suptitle('Plano de Argand-Gauss', color='dimgray')
 ax.set_title('Complexo: $z = 4 + 3i$')
 
 plt.show()
-
-
-
-
-
-
-
-
 
 import math
 from matplotlib.ticker import MultipleLocator
